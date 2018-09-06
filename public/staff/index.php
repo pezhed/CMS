@@ -1,12 +1,18 @@
-<!doctype html>
+<?php require_once('../../private/initialize.php');
+  echo PRIVATE_PATH;
+?>
 
-<html lang="en">
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-  </head>
+<?php $page_title = 'Staff Menu'; ?>
 
-  <body>
+<?php include(SHARED_PATH . '/staff_header.php'); ?>
 
-  </body>
-</html>
+    <div id="content">
+      <div id="main-menu">
+        <h2>Main Menu</h2>
+        <ul>
+            <li><a href="subjects/index.php">Subjects</a></li>
+        </ul>
+      </div>
+    </div>
+
+<?php include(SHARED_PATH . '/staff_footer.php'); ?>
